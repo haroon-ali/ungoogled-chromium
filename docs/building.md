@@ -46,7 +46,7 @@ mkdir -p build/download_cache
 mkdir -p build/src/out/Default
 cp flags.gn build/src/out/Default/args.gn
 cd build/src
-./tools/gn/bootstrap.py --skip-generate-buildfiles -j4 -o out/Default/gn
+./tools/gn/bootstrap/bootstrap.py --skip-generate-buildfiles -j4 -o out/Default/gn
 ```
 
 6. Build Chromium:
